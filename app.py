@@ -5,7 +5,7 @@ from PIL import Image
 import numpy as np
 
 # Load the trained model
-model = keras.models.load_model(r"C:\Users\vemul\Desktop\wow_project\fish_sepcies.h5")
+model = keras.models.load_model("fish_sepcies.h5")
 
 # Define a function to make predictions
 def predict_species(image):
